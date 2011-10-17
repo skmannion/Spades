@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71948FDF144CE0B800C1AACA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FDE144CE0B800C1AACA /* UIKit.framework */; };
+		71948FE1144CE0B800C1AACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FE0144CE0B800C1AACA /* Foundation.framework */; };
+		71948FE3144CE0B800C1AACA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FE2144CE0B800C1AACA /* CoreGraphics.framework */; };
+		71948FE9144CE0B800C1AACA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71948FE7144CE0B800C1AACA /* InfoPlist.strings */; };
+		71948FEB144CE0B800C1AACA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71948FEA144CE0B800C1AACA /* main.m */; };
+		71948FEF144CE0B900C1AACA /* SpadesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71948FEE144CE0B800C1AACA /* SpadesAppDelegate.m */; };
+		71948FF2144CE0B900C1AACA /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71948FF0144CE0B900C1AACA /* MainWindow.xib */; };
+		71948FF5144CE0B900C1AACA /* SpadesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71948FF4144CE0B900C1AACA /* SpadesViewController.m */; };
+		71948FF8144CE0B900C1AACA /* SpadesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 71948FF6144CE0B900C1AACA /* SpadesViewController.xib */; };
+		71949000144CE0B900C1AACA /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FFF144CE0B900C1AACA /* SenTestingKit.framework */; };
+		71949001144CE0B900C1AACA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FDE144CE0B800C1AACA /* UIKit.framework */; };
+		71949002144CE0B900C1AACA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FE0144CE0B800C1AACA /* Foundation.framework */; };
+		71949003144CE0B900C1AACA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71948FE2144CE0B800C1AACA /* CoreGraphics.framework */; };
+		7194900B144CE0B900C1AACA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71949009144CE0B900C1AACA /* InfoPlist.strings */; };
+		7194900D144CE0B900C1AACA /* SpadesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7194900C144CE0B900C1AACA /* SpadesTests.h */; };
+		7194900F144CE0B900C1AACA /* SpadesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7194900E144CE0B900C1AACA /* SpadesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71949004144CE0B900C1AACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71948FD1144CE0B800C1AACA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71948FD9144CE0B800C1AACA;
+			remoteInfo = Spades;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71948FDA144CE0B800C1AACA /* Spades.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spades.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71948FDE144CE0B800C1AACA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		71948FE0144CE0B800C1AACA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		71948FE2144CE0B800C1AACA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		71948FE6144CE0B800C1AACA /* Spades-Info.plist */ = {isa = PBXFileReference; path = "Spades-Info.plist"; sourceTree = "<group>"; };
+		71948FE8144CE0B800C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		71948FEA144CE0B800C1AACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71948FEC144CE0B800C1AACA /* Spades-Prefix.pch */ = {isa = PBXFileReference; path = "Spades-Prefix.pch"; sourceTree = "<group>"; };
+		71948FED144CE0B800C1AACA /* SpadesAppDelegate.h */ = {isa = PBXFileReference; path = SpadesAppDelegate.h; sourceTree = "<group>"; };
+		71948FEE144CE0B800C1AACA /* SpadesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpadesAppDelegate.m; sourceTree = "<group>"; };
+		71948FF1144CE0B900C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		71948FF3144CE0B900C1AACA /* SpadesViewController.h */ = {isa = PBXFileReference; path = SpadesViewController.h; sourceTree = "<group>"; };
+		71948FF4144CE0B900C1AACA /* SpadesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpadesViewController.m; sourceTree = "<group>"; };
+		71948FF7144CE0B900C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpadesViewController.xib; sourceTree = "<group>"; };
+		71948FFE144CE0B900C1AACA /* SpadesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpadesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71948FFF144CE0B900C1AACA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		71949008144CE0B900C1AACA /* SpadesTests-Info.plist */ = {isa = PBXFileReference; path = "SpadesTests-Info.plist"; sourceTree = "<group>"; };
+		7194900A144CE0B900C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7194900C144CE0B900C1AACA /* SpadesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpadesTests.h; sourceTree = "<group>"; };
+		7194900E144CE0B900C1AACA /* SpadesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpadesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71948FD7144CE0B800C1AACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71948FDF144CE0B800C1AACA /* UIKit.framework in Frameworks */,
+				71948FE1144CE0B800C1AACA /* Foundation.framework in Frameworks */,
+				71948FE3144CE0B800C1AACA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71948FFA144CE0B900C1AACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71949000144CE0B900C1AACA /* SenTestingKit.framework in Frameworks */,
+				71949001144CE0B900C1AACA /* UIKit.framework in Frameworks */,
+				71949002144CE0B900C1AACA /* Foundation.framework in Frameworks */,
+				71949003144CE0B900C1AACA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71948FCF144CE0B800C1AACA = {
+			isa = PBXGroup;
+			children = (
+				71948FE4144CE0B800C1AACA /* Spades */,
+				71949006144CE0B900C1AACA /* SpadesTests */,
+				71948FDD144CE0B800C1AACA /* Frameworks */,
+				71948FDB144CE0B800C1AACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71948FDB144CE0B800C1AACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71948FDA144CE0B800C1AACA /* Spades.app */,
+				71948FFE144CE0B900C1AACA /* SpadesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71948FDD144CE0B800C1AACA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71948FDE144CE0B800C1AACA /* UIKit.framework */,
+				71948FE0144CE0B800C1AACA /* Foundation.framework */,
+				71948FE2144CE0B800C1AACA /* CoreGraphics.framework */,
+				71948FFF144CE0B900C1AACA /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		71948FE4144CE0B800C1AACA /* Spades */ = {
+			isa = PBXGroup;
+			children = (
+				71948FED144CE0B800C1AACA /* SpadesAppDelegate.h */,
+				71948FEE144CE0B800C1AACA /* SpadesAppDelegate.m */,
+				71948FF0144CE0B900C1AACA /* MainWindow.xib */,
+				71948FF3144CE0B900C1AACA /* SpadesViewController.h */,
+				71948FF4144CE0B900C1AACA /* SpadesViewController.m */,
+				71948FF6144CE0B900C1AACA /* SpadesViewController.xib */,
+				71948FE5144CE0B800C1AACA /* Supporting Files */,
+			);
+			path = Spades;
+			sourceTree = "<group>";
+		};
+		71948FE5144CE0B800C1AACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71948FE6144CE0B800C1AACA /* Spades-Info.plist */,
+				71948FE7144CE0B800C1AACA /* InfoPlist.strings */,
+				71948FEA144CE0B800C1AACA /* main.m */,
+				71948FEC144CE0B800C1AACA /* Spades-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		71949006144CE0B900C1AACA /* SpadesTests */ = {
+			isa = PBXGroup;
+			children = (
+				7194900C144CE0B900C1AACA /* SpadesTests.h */,
+				7194900E144CE0B900C1AACA /* SpadesTests.m */,
+				71949007144CE0B900C1AACA /* Supporting Files */,
+			);
+			path = SpadesTests;
+			sourceTree = "<group>";
+		};
+		71949007144CE0B900C1AACA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				71949008144CE0B900C1AACA /* SpadesTests-Info.plist */,
+				71949009144CE0B900C1AACA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71948FD9144CE0B800C1AACA /* Spades */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71949012144CE0B900C1AACA /* Build configuration list for PBXNativeTarget "Spades" */;
+			buildPhases = (
+				71948FD6144CE0B800C1AACA /* Sources */,
+				71948FD7144CE0B800C1AACA /* Frameworks */,
+				71948FD8144CE0B800C1AACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spades;
+			productName = Spades;
+			productReference = 71948FDA144CE0B800C1AACA /* Spades.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71948FFD144CE0B900C1AACA /* SpadesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71949015144CE0B900C1AACA /* Build configuration list for PBXNativeTarget "SpadesTests" */;
+			buildPhases = (
+				71948FF9144CE0B900C1AACA /* Sources */,
+				71948FFA144CE0B900C1AACA /* Frameworks */,
+				71948FFB144CE0B900C1AACA /* Resources */,
+				71948FFC144CE0B900C1AACA /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71949005144CE0B900C1AACA /* PBXTargetDependency */,
+			);
+			name = SpadesTests;
+			productName = SpadesTests;
+			productReference = 71948FFE144CE0B900C1AACA /* SpadesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71948FD1144CE0B800C1AACA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 71948FD4144CE0B800C1AACA /* Build configuration list for PBXProject "Spades" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 71948FCF144CE0B800C1AACA;
+			productRefGroup = 71948FDB144CE0B800C1AACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71948FD9144CE0B800C1AACA /* Spades */,
+				71948FFD144CE0B900C1AACA /* SpadesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71948FD8144CE0B800C1AACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71948FE9144CE0B800C1AACA /* InfoPlist.strings in Resources */,
+				71948FF2144CE0B900C1AACA /* MainWindow.xib in Resources */,
+				71948FF8144CE0B900C1AACA /* SpadesViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71948FFB144CE0B900C1AACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7194900B144CE0B900C1AACA /* InfoPlist.strings in Resources */,
+				7194900D144CE0B900C1AACA /* SpadesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		71948FFC144CE0B900C1AACA /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71948FD6144CE0B800C1AACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71948FEB144CE0B800C1AACA /* main.m in Sources */,
+				71948FEF144CE0B900C1AACA /* SpadesAppDelegate.m in Sources */,
+				71948FF5144CE0B900C1AACA /* SpadesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71948FF9144CE0B900C1AACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7194900F144CE0B900C1AACA /* SpadesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71949005144CE0B900C1AACA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71948FD9144CE0B800C1AACA /* Spades */;
+			targetProxy = 71949004144CE0B900C1AACA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71948FE7144CE0B800C1AACA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71948FE8144CE0B800C1AACA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		71948FF0144CE0B900C1AACA /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71948FF1144CE0B900C1AACA /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		71948FF6144CE0B900C1AACA /* SpadesViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71948FF7144CE0B900C1AACA /* en */,
+			);
+			name = SpadesViewController.xib;
+			sourceTree = "<group>";
+		};
+		71949009144CE0B900C1AACA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7194900A144CE0B900C1AACA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71949010144CE0B900C1AACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71949011144CE0B900C1AACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71949013144CE0B900C1AACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spades/Spades-Prefix.pch";
+				INFOPLIST_FILE = "Spades/Spades-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		71949014144CE0B900C1AACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spades/Spades-Prefix.pch";
+				INFOPLIST_FILE = "Spades/Spades-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		71949016144CE0B900C1AACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spades.app/Spades";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spades/Spades-Prefix.pch";
+				INFOPLIST_FILE = "SpadesTests/SpadesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		71949017144CE0B900C1AACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Spades.app/Spades";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Spades/Spades-Prefix.pch";
+				INFOPLIST_FILE = "SpadesTests/SpadesTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71948FD4144CE0B800C1AACA /* Build configuration list for PBXProject "Spades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71949010144CE0B900C1AACA /* Debug */,
+				71949011144CE0B900C1AACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71949012144CE0B900C1AACA /* Build configuration list for PBXNativeTarget "Spades" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71949013144CE0B900C1AACA /* Debug */,
+				71949014144CE0B900C1AACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		71949015144CE0B900C1AACA /* Build configuration list for PBXNativeTarget "SpadesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71949016144CE0B900C1AACA /* Debug */,
+				71949017144CE0B900C1AACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71948FD1144CE0B800C1AACA /* Project object */;
+}
