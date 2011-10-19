@@ -10,6 +10,18 @@
 
 @implementation SpadesViewController
 
+
+-(IBAction) setBid: (id)sender
+{
+    
+}
+
+-(void) trickSender:(id)sender
+{
+    viewScore = [playerScore getScore:textfield.value];
+}
+
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.
@@ -20,13 +32,19 @@
 
 #pragma mark - View lifecycle
 
-/*
+
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad
 {
+ 
+ playerScore = [[BidScore alloc] init];
+ 
+ [playerScore createScore];
+    
     [super viewDidLoad];
+    
 }
-*/
+
 
 - (void)viewDidUnload
 {

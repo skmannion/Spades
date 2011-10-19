@@ -23,6 +23,7 @@
 		7194900B144CE0B900C1AACA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 71949009144CE0B900C1AACA /* InfoPlist.strings */; };
 		7194900D144CE0B900C1AACA /* SpadesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 7194900C144CE0B900C1AACA /* SpadesTests.h */; };
 		7194900F144CE0B900C1AACA /* SpadesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7194900E144CE0B900C1AACA /* SpadesTests.m */; };
+		71949019144CE0E100C1AACA /* BidScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 71949018144CE0E100C1AACA /* BidScore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,22 +41,24 @@
 		71948FDE144CE0B800C1AACA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		71948FE0144CE0B800C1AACA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		71948FE2144CE0B800C1AACA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		71948FE6144CE0B800C1AACA /* Spades-Info.plist */ = {isa = PBXFileReference; path = "Spades-Info.plist"; sourceTree = "<group>"; };
+		71948FE6144CE0B800C1AACA /* Spades-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Spades-Info.plist"; sourceTree = "<group>"; };
 		71948FE8144CE0B800C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		71948FEA144CE0B800C1AACA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		71948FEC144CE0B800C1AACA /* Spades-Prefix.pch */ = {isa = PBXFileReference; path = "Spades-Prefix.pch"; sourceTree = "<group>"; };
-		71948FED144CE0B800C1AACA /* SpadesAppDelegate.h */ = {isa = PBXFileReference; path = SpadesAppDelegate.h; sourceTree = "<group>"; };
+		71948FEC144CE0B800C1AACA /* Spades-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Spades-Prefix.pch"; sourceTree = "<group>"; };
+		71948FED144CE0B800C1AACA /* SpadesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpadesAppDelegate.h; sourceTree = "<group>"; };
 		71948FEE144CE0B800C1AACA /* SpadesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpadesAppDelegate.m; sourceTree = "<group>"; };
 		71948FF1144CE0B900C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		71948FF3144CE0B900C1AACA /* SpadesViewController.h */ = {isa = PBXFileReference; path = SpadesViewController.h; sourceTree = "<group>"; };
+		71948FF3144CE0B900C1AACA /* SpadesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpadesViewController.h; sourceTree = "<group>"; };
 		71948FF4144CE0B900C1AACA /* SpadesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpadesViewController.m; sourceTree = "<group>"; };
 		71948FF7144CE0B900C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SpadesViewController.xib; sourceTree = "<group>"; };
 		71948FFE144CE0B900C1AACA /* SpadesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpadesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71948FFF144CE0B900C1AACA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		71949008144CE0B900C1AACA /* SpadesTests-Info.plist */ = {isa = PBXFileReference; path = "SpadesTests-Info.plist"; sourceTree = "<group>"; };
+		71949008144CE0B900C1AACA /* SpadesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpadesTests-Info.plist"; sourceTree = "<group>"; };
 		7194900A144CE0B900C1AACA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7194900C144CE0B900C1AACA /* SpadesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpadesTests.h; sourceTree = "<group>"; };
 		7194900E144CE0B900C1AACA /* SpadesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpadesTests.m; sourceTree = "<group>"; };
+		71949018144CE0E100C1AACA /* BidScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BidScore.m; path = ../BidScore.m; sourceTree = "<group>"; };
+		7194901A144CE11C00C1AACA /* BidScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BidScore.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 		71948FE4144CE0B800C1AACA /* Spades */ = {
 			isa = PBXGroup;
 			children = (
+				71949018144CE0E100C1AACA /* BidScore.m */,
+				7194901A144CE11C00C1AACA /* BidScore.h */,
 				71948FED144CE0B800C1AACA /* SpadesAppDelegate.h */,
 				71948FEE144CE0B800C1AACA /* SpadesAppDelegate.m */,
 				71948FF0144CE0B900C1AACA /* MainWindow.xib */,
@@ -265,6 +270,7 @@
 				71948FEB144CE0B800C1AACA /* main.m in Sources */,
 				71948FEF144CE0B900C1AACA /* SpadesAppDelegate.m in Sources */,
 				71948FF5144CE0B900C1AACA /* SpadesViewController.m in Sources */,
+				71949019144CE0E100C1AACA /* BidScore.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
